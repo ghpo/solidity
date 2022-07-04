@@ -1,9 +1,11 @@
+/**
+SPDX-License-Identifier: UNLICENSED
+*/
+
 pragma solidity ^0.8.9;
 
-/**
- * The contractName contract does this and that...
- */
-contract HelloWorld {
+
+contract FuncoesBasicas {
 
     string public text;
     uint public number;
