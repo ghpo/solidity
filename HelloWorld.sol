@@ -1,5 +1,4 @@
-pragma solidity 0.5.3;
-
+pragma solidity ^0.8.9;
 
 /**
  * The contractName contract does this and that...
@@ -36,6 +35,7 @@ contract HelloWorld {
     function setInteracted() private {
         hasInteracted[msg.sender] += 1;
     }
+
 
     function sum(uint num1, uint num2) public pure returns(uint) {
         return num1 + num2;
